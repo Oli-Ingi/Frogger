@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  flex-flow: column;
+}
+
+#reload {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#winner {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#instructions {
+  margin-top: 0;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  color: #b5b;
+}
+
+.timer-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.under {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.timer-label {
+  margin: 5px 0;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  color: #b5b;
+}
+
+.canvas-container { position: relative; }
